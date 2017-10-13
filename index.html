@@ -7,32 +7,40 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
   </head> 
 
 <body>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-3">Music Maestro!</h1>
-                <p>My feelgood music</p>
-                <p>Lukas Graham - Adele - Imagine Dragons</p>
-        </div>
-    </div>
 
+        <section class="hero"> 
+            <div class="col-8 divmidden">
+                <h1 class="display-3">Music Maestro!</h1>
+                <p>My feelgood music</p>
+        
+                <nav>
+                    <ul>
+                        <li> <a href="#lukasgraham"> Lukas Graham</a> </li>
+                        <li> <a href="#adele"> Adele</a> </li>
+                        <li> <a href="#imaginedragons"> Imagine Drangons</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+
+<div class="wrapper wrapper-gray">
     <div class="container">
         <div class="row">
-            <div class="col-8">
-                <img src="img/lukas_graham.jpg" class="img-fluid" alt="Responsive image">
-                <h1>LUKAS GRAHAM</h1>
-                <button type="button" class="btn btn-dark">Enjoy the music</button>
+            <div class="col-6 col-md-3">
+                <img src="img/lukas_graham.jpg" class="img-fluid imgcover" id="lukasgraham" alt="Responsive image">
+                <button type="button" class="btn btn-danger">Enjoy the music</button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-md-4">
                 <h3>ABOUT</h3>
                     <p> <strong>Blue Album</strong> is the second studio album by Danish Pop and soul band <strong>Lukas Graham.</strong> It consists of lead vocalist Lukas Forchhammer, drummer Mark Falgren, and bassist Magnus Larsson.</p>
                     <p>The album was released on 16 June 2015.</p>
             </div>
-            <div class="col-12">
+            <div class="col-10 col-md-4">
                 <h3>TRACKLIST</h3>
                     <ol>
                         <li>7 years</li>
@@ -48,24 +56,28 @@
                         <li>You're not there</li>
                         <li>Funeral</li>
                     </ol>
-                <a href="#"> <img src="img/up.png" alt="up" width="50px"> </a>
+            </div>
+            <div class="col-2 col-md-1">
+                <a href="#"> <img src="img/up.png" class="img-fluid btn-up" alt="Responsive image"><img> </a>
             </div>
         </div>
-        <hr>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="container">
         <div class="row">
-            <div class="col-8">
-                <img src="img/adele.jpg" class="img-fluid" alt="Responsive image">
+            <div class="col-6 col-md-3 col-img">
+                <img src="img/adele.jpg" class="img-fluid" id="adele" alt="Responsive image">
                 <h1>ADELE</h1>
-                <button type="button" class="btn btn-dark">Enjoy the music</button>
+                <button type="button" class="btn btn-danger">Enjoy the music</button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-md-4">
                 <h3>ABOUT</h3>
                     <p> <strong>21</strong>  is the second studio album by British singer-songwriter <strong>Adele Laurie Blue Adkins MBE.</strong> The album was named after the age of the singer during its production.</p>
                     <p>The album was released on 24 January 2011.</p>
             </div>
-            <div class="col-12">
+            <div class="col-10 col-md-4">
                 <h3>TRACKLIST</h3>
                     <ol>
                         <li>Rolling in the deep</li>
@@ -80,24 +92,29 @@
                         <li>Lovesong</li>
                         <li>Someone like you</li>
                     </ol>
-                <a href="#"> <img src="img/up.png" alt="up" width="50px"> </a>
+            </div>
+            <div class="col-2 col-md-1">
+                <a class="btn-up" href="#"> <img src="img/up.png" class="img-fluid" alt="Responsive image"><img> </a>
             </div>
         </div>
-        <hr>
+    </div>
+</div>
+
+<div class="wrapper wrapper-gray">
+    <div class="container">
         <div class="row">
-            <div class="col-8">
-                <img src="img/imagine_dragons.jpeg" class="img-fluid" alt="Responsive image">
+            
+            <div class="col-6 col-md-3">
+                <img src="img/imagine_dragons.jpeg" class="img-fluid" id="imaginedragons" alt="Responsive image">
                 <h1>IMAGINE DRAGONS</h1>
-                <button type="button" class="btn btn-dark">Enjoy the music</button>
+                <button type="button" class="btn btn-danger">Enjoy the music</button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-md-4">
                 <h3>ABOUT</h3>
                     <p><strong>Night visions</strong> is the debut solo album by American rock band <strong>Imagine Dragons.</strong> Imagine Dragons formed consisting of lead singer Dan Reynolds, guitarist Wayne Sermon, bassist Ben McKee, drummer Andrew Tolman, and keyboardist Brittany Tolman.</p>
                     <p>The album was released on 4 September 2012.</p>
             </div>
-            <div class="col-12">
+            <div class="col-10 col-md-4">
                 <h3>TRACKLIST</h3>
                     <ol>
                         <li>Radioactive</li>
@@ -112,13 +129,18 @@
                         <li>Underdog</li>
                         <li>Nothing left to say/rocks</li>
                     </ol>
-                <a href="#"> <img src="img/up.png" alt="up" width="50px"> </a>
+            </div>
+            <div class="col-2 col-md-1">
+                <a class="btn-up" href="#"> <img src="img/up.png" class="img-fluid" alt="Responsive image"><img> </a>
             </div>
         </div>
     </div>
-    <div class="container footer">
+</div>
+<div class="wrapper wrapper-footer">
+    <div class="container">
         <p>® Music Maestro 2017</p>
     </div>
+</div>
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
