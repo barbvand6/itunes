@@ -1,24 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+
+
 .hero {
-    background: #CCC url('img/hero.jpg') no-repeat;
+    background: #CCC url('img/hero2kopie.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
     height:  300px;
     position: relative;
-    margin-bottom: 0px;
-    opacity: 0.7;
+    
+  }
+  .hero__text { 
+    font-family: 'raleway';
+    font-weight: 400;
+    font-size: 1.2rem;
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform:  translate(-50%,-50%);
+  }
+  .hero__title { 
+    font-family: 'Raleway';
+    font-weight: 800;
+    margin: 0;
+    font-size: 3rem;
+    color: rgb(229, 77, 66); 
   }
 
 nav ul li{
     float: left;
     list-style: none;
+    display: block;
 }
 
 nav ul li a{
     text-decoration: none;
     color: white;
     margin-left: 8px;
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 nav ul li a:hover{
@@ -26,17 +46,18 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
-.jumbotron-fluid{
-    margin-bottom: 0px;
-}
-
-.imgcover{
-    margin-top: 0px;
-     
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: rgb(229, 77, 66); 
 }
 
 strong{
     color: rgb(229, 77, 66);
+}
+
+p{
+    margin-left: 30px;
 }
 
 .btn {
@@ -48,15 +69,19 @@ strong{
 }
 
 .btn-up {
-    margin-top: 100%;
+    position: fixed;
+    right: 5px;
+    top: 50%;
+    width: 1.7em;
+    margin-top: 0em;
 }
 
 .wrapper{
     padding-top: 20px;
 }
 
-.wrapper-gray{
-    background-color: rgb(217, 217, 217);
+.wrapper-color{
+    background-color: rgb(238, 203, 203);
 }
 
 .wrapper-footer{
@@ -64,9 +89,6 @@ strong{
     padding: 50px;
 }
 
-p{
-    margin-left: 20px;
-}
 
 .display-3{
     color: rgb(229, 77, 66);
@@ -77,6 +99,8 @@ p{
 .divmidden{
     margin:auto;
 }
+
+
 
 /* Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -95,14 +119,56 @@ p{
         font-size: 1.5em;
     }
 
-    .display-3{
-        color: rgb(229, 77, 66);
-        font-size: 5em;
+    .hero__title { 
+        font-family: 'Raleway';
+        font-weight: 800;
+        margin: 0;
+        font-size: 3rem;
+        color: rgb(229, 77, 66); 
+      }
+
+      .hero__text p{ 
+        font-size: 2.5rem;
+      }
+
+      .btn-up {
+        position: fixed;
+        right: 10px;
+        top: 50%;
+        width: 2em;
+        margin-top: 0em;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        font-size: 1.5em;
+    }
+
+    .hero__title { 
+        font-family: 'Raleway';
+        font-weight: 800;
+        margin: 0;
+        font-size: 5.5rem;
+        color: rgb(229, 77, 66); 
+      }
+
+      hero__text p { 
+        font-size: 4rem;
+      }
+
+      .btn-up {
+        position: fixed;
+        right: 10px;
+        top: 50%;
+        width: 2.5em;
+        margin-top: 0em;
+    }
 
  }
 
