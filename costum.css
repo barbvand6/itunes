@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,800);
 
+/* head */ 
 
 .hero {
     background: #CCC url('img/hero2kopie.jpg') no-repeat;
@@ -8,8 +9,8 @@
     width: 100%;
     height:  300px;
     position: relative;
-    
   }
+
   .hero__text { 
     font-family: 'raleway';
     font-weight: 400;
@@ -28,10 +29,10 @@
     color: rgb(229, 77, 66); 
   }
 
-nav ul li{
-    float: left;
+  nav ul li{
     list-style: none;
     display: block;
+    text-align: left;
 }
 
 nav ul li a{
@@ -45,6 +46,9 @@ nav ul li a:hover{
     color:rgb(229, 77, 66);
     text-decoration: none;
 }
+
+
+/* typo */
 
 h3{
     font-family: 'Raleway', sans-serif;
@@ -60,13 +64,24 @@ p{
     margin-left: 30px;
 }
 
+.display-3{
+    color: rgb(229, 77, 66);
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+
+/* buttons */
+
 .btn {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 10px auto 20px;
     background-color: rgb(229, 77, 66);
     border-radius: 15px;
-
+    color: black;
+    font-family: 'Raleway';
+    font-weight: 800;
 }
+
 
 .btn-up {
     position: fixed;
@@ -76,6 +91,8 @@ p{
     margin-top: 0em;
 }
 
+/* body */
+
 .wrapper{
     padding-top: 20px;
 }
@@ -84,21 +101,24 @@ p{
     background-color: rgb(238, 203, 203);
 }
 
+/* footer */
+
 .wrapper-footer{
     background-color:  rgb(229, 77, 66);
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom:10px;
+}
+
+.container-footer{
+    color:white;
+    font-family: 'Raleway';
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.7em;
 }
 
 
-.display-3{
-    color: rgb(229, 77, 66);
-    font-size: 2em;
-    margin-left: 20px;
-}
 
-.divmidden{
-    margin:auto;
-}
 
 
 
@@ -112,11 +132,17 @@ p{
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
+    nav ul li{
+        float:left;
+        list-style: none;
+        display: block;
+    }
+    
     nav ul li a{
         text-decoration: none;
         color: white;
         margin-left: 20px;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .hero__title { 
@@ -138,17 +164,40 @@ p{
         width: 2em;
         margin-top: 0em;
     }
+
+    p{
+        font-size: 0.9em;
+    }
+
+    ol li{
+        font-size: 0.9em;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+    
+    nav ul li{
+        float:left;
+        list-style: none;
+        display: block;
+    }
+   
     nav ul li a{
         text-decoration: none;
         color: white;
         margin-left: 20px;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
+
+    .hero {
+        background: #CCC url('img/hero2kopie.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 400px;
+        position: relative;
+      }
 
     .hero__title { 
         font-family: 'Raleway';
@@ -170,6 +219,13 @@ p{
         margin-top: 0em;
     }
 
+    p{
+        font-size: 1.1em;
+    }
+
+    ol li{
+        font-size: 1.1em;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
