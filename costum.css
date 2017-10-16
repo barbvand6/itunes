@@ -74,12 +74,17 @@ p{
 /* buttons */
 
 .btn {
-    margin: 10px auto 20px;
+    margin: 5px auto 20px;
     background-color: rgb(229, 77, 66);
     border-radius: 15px;
-    color: black;
     font-family: 'Raleway';
     font-weight: 800;
+    width: 200px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: rgb(229, 77, 66);
 }
 
 
@@ -172,6 +177,10 @@ p{
     ol li{
         font-size: 0.9em;
     }
+
+    .btn {
+        width: 160px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -225,6 +234,10 @@ p{
 
     ol li{
         font-size: 1.1em;
+    }
+
+    .btn {
+        width: 220px;
     }
  }
 
