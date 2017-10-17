@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,800);
+
+/* jumbotron */ 
+.jumbotron{
+    text-align: center;
+    font-family: 'Raleway';
+    background: #CCC url('img/hero2kopie.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:  300px;
+    margin-bottom: 0px;
+}
+
+.display-3 {
+    font-weight: 800;
+    font-size: 3em;
+    color: rgb(229, 77, 66);
+    margin-top: 50px;
+}
+
+.lead { 
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 1.8em;
+}
+
+/* typo */
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: rgb(229, 77, 66); 
+}
+
+
+strong{
+    color: rgb(229, 77, 66);
+}
+
+
+/* buttons */
+
+.btn {
+    margin: 5px auto 20px;
+    background-color: rgb(229, 77, 66);
+    border-radius: 15px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    width: 200px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: rgb(229, 77, 66);
+}
+
+.btn-up {
+    position: fixed;
+    right: 5px;
+    top: 50%;
+    width: 1.5em;
+    margin-top: 0em;
+}
+
+/* body */
+
+.wrapper{
+    padding-top: 20px;
+}
+
+.wrapper-color{
+    background-color: rgb(238, 203, 203);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'raleway';
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(229, 77, 66);
+}
+
+/* footer */
+
+.wrapper-footer{
+    background-color:  rgb(229, 77, 66);
+    padding-top: 50px;
+    padding-bottom:10px;
+}
+
+.container-footer{
+    color:white;
+    font-family: 'Raleway';
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+*/
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .display-3 {
+        font-size: 5em;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 0.9em;
+        margin-left: 20px;
+    }
+
+    .lead { 
+        font-weight: 400;
+        margin-bottom: 0;
+        font-size: 2.5em;
+    }
+
+    a{
+        font-size: 1.2em;
+    }
+
+    .btn-up {
+        width: 2em;
+    }
+
+    ol li{
+        font-size: 0.9em;
+    }
+
+    .btn {
+        width: 160px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .jumbotron{
+        height: 350px;
+    }
+
+    .display-3 {
+        font-size: 6em;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    p{
+        font-size: 1.1em;
+    }
+    
+    .lead { 
+        font-weight: 400;
+        margin-bottom: 0;
+        font-size: 3em;
+    }
+
+      .btn-up {
+        width: 2.5em;
+    }
+
+
+    ol li{
+        font-size: 1.1em;
+    }
+
+    .btn {
+        width: 220px;
+    }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
